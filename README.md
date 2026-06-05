@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CareerIQ - AI-Powered Job Market Intelligence Platform
 
 CareerIQ is a minimalist portfolio project that helps job seekers understand how competitive they are in the Canadian job market.
@@ -131,3 +132,6 @@ CareerGuide/
 ## Deployment
 
 CareerIQ is ready for Streamlit Community Cloud. See [Deployment Guide](docs/DEPLOYMENT.md).
+=======
+# CareerIQ
+>>>>>>> 8285f99c2feebcddb8a941325e9c07bcdb9df1bc
