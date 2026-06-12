@@ -22,6 +22,7 @@ spaCy
 SQL
 Data visualization
 
+
 ## Main Features
 
 Upload and extract text from PDF resumes
@@ -33,6 +34,7 @@ Identify missing skills based on job market demand
 Generate a focused learning roadmap
 Show job market insights through Streamlit dashboards
 Display a personalized profile page after resume upload
+
 
 ## How It Works
 
@@ -62,7 +64,6 @@ Testing and documentation
 pip install -r requirements.txt
 python scripts/load_sample_jobs.py
 streamlit run app.py
-## Run Milestone 2 Data Load
 
 ## Run Tests
 
@@ -86,5 +87,13 @@ CareerGuide/
 
 The project uses a small curated sample dataset of Canadian job postings for portfolio demonstration. The current sample includes 41 postings across technical and non-technical role families.
 
+## Preview of the APP
+
+[CareerIQ dashboard.pdf](https://github.com/user-attachments/files/28860212/CareerIQ.dashboard.pdf)
+
+[CareerIQ.pdf](https://github.com/user-attachments/files/28860218/CareerIQ.pdf)
+
+
 ## APP
+
 >>>>>>>>>>>>    https://careeriq-h3zf.onrender.com/
