@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+<<<<<<<HEAD
 # CareerIQ - AI-Powered Job Market Intelligence Platform
 
 CareerIQ is a minimalist project that helps job seekers understand how competitive they are in the Canadian job market.
