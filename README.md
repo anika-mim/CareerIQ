@@ -1,4 +1,4 @@
-<<<<<<<HEAD
+
 # CareerIQ - AI-Powered Job Market Intelligence Platform
 
 CareerIQ is a job market intelligence app that helps job seekers understand how well their resume matches the Canadian job market.
