@@ -85,3 +85,6 @@ CareerGuide/
 ## Dataset
 
 The project uses a small curated sample dataset of Canadian job postings for portfolio demonstration. The current sample includes 41 postings across technical and non-technical role families.
+
+## APP
+>>>>>>>>>>>>    https://careeriq-h3zf.onrender.com/
