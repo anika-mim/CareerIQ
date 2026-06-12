@@ -1,124 +1,77 @@
 <<<<<<<HEAD
 # CareerIQ - AI-Powered Job Market Intelligence Platform
 
-CareerIQ is a minimalist project that helps job seekers understand how competitive they are in the Canadian job market.
+CareerIQ is a job market intelligence app that helps job seekers understand how well their resume matches the Canadian job market.
 
-Users upload a resume, the app extracts career signals, compares them with job posting data, and returns practical insights such as match scores, missing skills, high-demand skills, and a focused learning roadmap.
+Users can upload a PDF resume, and the app extracts key career signals such as skills, education, experience, certifications, and projects. It then compares the profile with sample Canadian job posting data and provides practical insights like match scores, missing skills, in-demand skills, hiring cities, and a focused learning roadmap.
 
-## Target Users
+## Why I Built This
 
-- Data Analysts
-- Business Analysts
-- IT Support Technicians
-- User Support Technicians
-- Entry-level Tech Professionals
-- Software Engineers
-- Developers
-- Full Stack Engineers
-- Project Managers
-- Product Managers
-- HR and Recruiting Professionals
-- Marketing, Sales, and Operations Professionals
+Many job seekers apply without knowing how their resume compares to real job postings. I built CareerIQ to make that process more data-driven and easier to understand.
 
-## Version 1 Scope
+This project combines data analytics, resume parsing, NLP, SQL, and dashboarding in one practical portfolio project.
 
-Version 1 is intentionally practical and portfolio-focused:
+## Tech Stack
 
-- Streamlit frontend
-- Python backend
-- SQLite database
-- Pandas for analysis
-- pdfplumber for PDF resume text extraction
-- spaCy for NLP-assisted parsing
-- Personalized post-upload profile page with candidate greeting
-- Simple scoring logic that is easy to explain in interviews
-- Dashboard views for job market intelligence
-- Visitor counter for portfolio engagement tracking
+Python
+Streamlit
+SQLite
+Pandas
+pdfplumber
+spaCy
+SQL
+Data visualization
 
-## Portfolio Skills Demonstrated
+## Main Features
 
-- Data analytics and dashboarding
-- SQL schema design and querying
-- Python data pipelines
-- Resume parsing with NLP
-- Skill gap analysis
-- Product thinking
-- Clean project structure
-- Testing and documentation
+Upload and extract text from PDF resumes
+Parse skills, education, experience, certifications, and projects
+Load job posting data into a SQLite database
+Analyze high-demand skills and hiring locations
+Calculate an explainable candidate match score
+Identify missing skills based on job market demand
+Generate a focused learning roadmap
+Show job market insights through Streamlit dashboards
+Display a personalized profile page after resume upload
 
-## Project Status
+## How It Works
 
-Current phase: Version 1 complete.
+The user uploads a PDF resume.
+The app extracts and cleans the resume text.
+Resume information is parsed into structured career signals.
+Job posting data is loaded from a sample dataset into SQLite.
+The app compares the candidate profile with job market data.
+Results are shown through scores, insights, charts, and recommendations.
 
-See:
+## Project Highlights
 
-- [System Architecture](docs/ARCHITECTURE.md)
-- [Database Design](docs/DATABASE_DESIGN.md)
-- [Development Plan](docs/DEVELOPMENT_PLAN.md)
-- [Milestone 2 Job Data Loader](docs/MILESTONE_2_JOB_DATA_LOADER.md)
-- [Milestone 3 Resume Text Extraction](docs/MILESTONE_3_RESUME_TEXT_EXTRACTION.md)
-- [Milestone 4 Resume Profile Parser](docs/MILESTONE_4_RESUME_PROFILE_PARSER.md)
-- [Milestone 5 Job Market Dashboard](docs/MILESTONE_5_JOB_MARKET_DASHBOARD.md)
-- [Milestone 6 Candidate Scoring Engine](docs/MILESTONE_6_CANDIDATE_SCORING_ENGINE.md)
-- [Milestone 7 Career Roadmap Generator](docs/MILESTONE_7_CAREER_ROADMAP_GENERATOR.md)
-- [Milestone 8 Portfolio Polish and Deployment](docs/MILESTONE_8_PORTFOLIO_POLISH_DEPLOYMENT.md)
-- [Deployment Guide](docs/DEPLOYMENT.md)
-- [Portfolio Review](docs/PORTFOLIO_REVIEW.md)
+This project demonstrates:
 
-## Features
-
-- Upload PDF resumes
-- Extract clean resume text
-- Parse skills, education, certifications, experience, and projects
-- Load Canadian job postings into SQLite
-- Analyze in-demand skills and hiring cities
-- Calculate explainable candidate scores
-- Identify missing high-demand skills
-- Recommend a career roadmap
-- Visualize job market trends in Streamlit
-- Greet the candidate by extracted name when available
-- Show an optional profile image or professional initials avatar
-- Highlight highest and lowest bars in dashboard charts
-- Provide clear messages when a PDF cannot be extracted reliably
+Data analytics and dashboard development
+SQL database design and querying
+Python data pipelines
+Resume parsing with NLP
+Skill gap analysis
+Job market analysis
+Product thinking
+Clean project structure
+Testing and documentation
 
 ## Run The App
 
-From the project root:
-
-```bash
 pip install -r requirements.txt
 python scripts/load_sample_jobs.py
 streamlit run app.py
-```
-
 ## Run Milestone 2 Data Load
-
-From the project root:
-
-```bash
-python scripts/load_sample_jobs.py
-python -m unittest discover -s tests -v
-```
-
-The loader creates a local SQLite database at:
-
-```text
-data/processed/careeriq_dev.sqlite
-```
-
-That generated database is ignored by Git. The source CSV is tracked because it is a small curated sample dataset for portfolio demonstration.
-
-The sample dataset currently includes 41 Canadian postings across technical and non-technical role families.
 
 ## Run Tests
 
-```bash
 python -m unittest discover -s tests -v
-```
+The loader creates a local SQLite database at:
+
 
 ## Project Structure
 
-```text
 CareerGuide/
   app.py
   data/
@@ -127,11 +80,8 @@ CareerGuide/
   scripts/
   src/careeriq/
   tests/
-```
 
-## Deployment
 
-CareerIQ is ready for Streamlit Community Cloud. See [Deployment Guide](docs/DEPLOYMENT.md).
-=======
-# CareerIQ
->>>>>>> 8285f99c2feebcddb8a941325e9c07bcdb9df1bc
+## Dataset
+
+The project uses a small curated sample dataset of Canadian job postings for portfolio demonstration. The current sample includes 41 postings across technical and non-technical role families.
